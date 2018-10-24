@@ -1,3 +1,5 @@
 class WelcomeController < ApplicationController
-  @time = Time.now
+  def index
+    @time = Time.now
+  end
 end
